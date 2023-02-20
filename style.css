@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 /*ヘッダー*/
 header{
     height: 60px;
@@ -10,9 +9,9 @@ header{
     color: white;
     text-align: center;
     padding-top: 60px;
-    background-image: url("https://github.com/anyrina/girls_junk/blob/main/member.png?raw=true") ;
+    background-image: url("/Users/test/Documents/JUNK/JUNK website/top/image/member.png") ;
     background-size: cover;
-    height: 550px;
+    height: 600px;
 }
 
 /*テキスト*/
@@ -94,5 +93,4 @@ header{
 footer{
     float: right;
 }
-
 
