@@ -5,6 +5,9 @@ header{
     height: 60px;
 }
 
+header img{
+    float: left;
+
 /*ラッパー*/
 .top-wrapper{
     color: white;
