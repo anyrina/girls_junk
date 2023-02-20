@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+/*ヘッダー*/
+header{
+    height: 60px;
+}
+
+.mark{
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+
+.header-logo{
+    float: left;
+    font-family: "Henny Penny";
+    font-size: 25px;
+    margin-top: 13px;
+}
+
+.header-logo span{
+    font-size: 15px;
+    padding-left: 10px;
+
+}
+
+/*ラッパー*/
+.top-wrapper{
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    background-image: url("/Users/test/Documents/JUNK/JUNK website/top/image/member.png") ;
+    background-size: cover;
+    height: 550px;
+}
+
+/*テキスト*/
+.container h1{
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.container span{
+    background-color: black;
+    border-radius: 40px;
+    padding: 10px 30px;
+}
+
+.container h2{
+    text-shadow: 3px 3px 2px #ffa600;
+}
+
+/*リンク*/
+.item{
+    display: flex;
+    margin: 50px 60px 0;
+    color: black;
+    justify-content: center;
+}
+
+.item p{
+    font-size: 20px;
+    color: white;
+    text-shadow: 3px 3px 2px #464746;
+    padding-bottom: 10px;
+    
+}
+
+.items{
+    margin-right: 40px;
+}
+
+/*SNS*/
+.btn{
+    color: white;
+    padding: 5px 10px;
+    display: inline-block; 
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.btn:hover{
+    color: black;
+}
+
+.icon{
+    margin-right: 5px;
+}
+
+.line{
+    background-color: #02D43D;
+    margin-bottom: 20px;
+} 
+
+.instagram{
+    background-color: #DC65FF;
+}
+
+.info{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.info img{
+    height: 150px;
+    background: #e0dfdf;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border: solid 3px gray;
+}
+
+footer{
+    float: right;
+}
+
+
