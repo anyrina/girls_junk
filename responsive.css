@@ -1,0 +1,43 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+    footer{
+    text-align: center;
+    }
+  }
+  
+  /* スマホ向けレイアウト */
+  @media all and (max-width: 670px) {
+    .top-wrapper{
+        height: 900px;   
+        background-size: 650px;
+    }
+
+    .container h1{
+        font-size: 35px;
+        line-height: 1.7;
+    }
+    
+    .item{
+        display: block;
+        margin-top: 50px;
+    }
+
+    .item p{
+        padding-bottom: 0;
+    }
+
+    .btn {
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .line{
+        margin-bottom: 20px;
+    }
+
+    .items{
+        margin-right: 0;
+        margin-top: 70px;
+    }
+  }
