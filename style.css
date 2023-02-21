@@ -44,8 +44,8 @@ header{
 
 .item p{
     font-size: 20px;
-    color: white;
-    text-shadow: 3px 3px 2px #464746;
+    color: black;
+    text-shadow: 3px 3px 2px white;
     padding-bottom: 10px;
     
 }
