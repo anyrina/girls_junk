@@ -54,7 +54,13 @@
 
      .info{
         display: block;
-   
      }
-      
+   
+     .mail{
+        padding-top: 20px;
+     }
+
+     .mail span{
+        background-color:rgb(197, 198, 199);
+     }      
   }
