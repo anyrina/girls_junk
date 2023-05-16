@@ -1,0 +1,13 @@
+@media all and (max-width: 660px) {
+    .background_rock {
+        display: none;
+    }
+
+    .sheet {
+        width: 100%;
+    }
+
+    #sheet2 {
+        left: 0;
+    }
+}
