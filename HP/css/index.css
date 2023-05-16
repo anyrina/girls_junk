@@ -1,0 +1,155 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#sheet2  {
+    color: white;
+}
+
+.sheet {
+    width: calc(100%/3);
+}
+
+
+
+/*********** sheet1,3 (img.rock) ***********/
+.backgroud_rock {
+    color: black;
+    position: fixed;
+    height: 30rem;
+}
+
+#sheet1 {
+    color: black;
+    position: fixed;
+}
+
+#sheet3 {
+    position: fixed;
+    left: 66%
+}
+/*********** sheet2 (on) ***********/
+#sheet2 {
+    background-color: black; 
+    position: absolute;
+    left: calc(100%/3);
+}
+
+
+/*メイン*/
+.flex_home {
+    display: flex;
+}
+
+/*top wrapper*/
+.top_wrapper {
+    justify-content: space-around;
+    padding-top: 5rem;
+}
+.top_wrapper img {
+    width: 100%;
+}
+
+.top_wrapper h1 {
+    font-family: Henny Penny;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+/*detail*/
+h2 {
+    text-align: center;
+    margin: 4rem 0;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+/*NEWS*/ 
+.news {
+    text-align: center;
+    margin: 5rem auto;
+}
+
+
+.news a {
+    display: block;
+    text-decoration: underline pink;
+    margin: 2rem 0;
+}
+
+/*menu*/
+.menu_items {
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu img {
+    height: 100px;
+}
+
+.table_menu {
+    margin: 5rem auto; 
+}
+
+.table_menu td{
+    padding-bottom: 1rem;
+
+}
+
+.plice {
+    padding-left: 1rem;
+}
+
+.shot_menu {
+    display: flex; 
+    width: 80%;
+    margin: 0 auto;
+}
+
+.coca p {
+    margin-top: -0.8rem;
+    margin-left: 1.5rem;
+}
+
+.kuliner p {
+    margin-top: -0.8rem;
+    margin-left: 1.2rem;
+}
+
+
+.shot_menu_images img {
+    height: 4rem;
+}
+
+.menu_other {
+    padding-left: 3rem; 
+}
+
+/*staff*/
+.staff_item {
+    display: flex;
+    padding: 0 1.5rem;
+}
+.staff_item img {
+    width: 30rem;
+    height: 15rem; 
+    padding-right: 2rem;
+}
+
+.staff_item p{
+    margin-top: 0;
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+
+

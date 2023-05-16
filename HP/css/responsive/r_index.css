@@ -1,0 +1,46 @@
+@media all and (max-width: 660px) {
+    .background_rock {
+        display: none;
+    }
+
+    .sheet {
+        width: 100%;
+    }
+
+    #sheet2 {
+        left: 0;
+    }
+
+    /*top wrapper*/
+    .top_wrapper img {
+        height: 33rem;
+    }
+
+    /*menu*/
+    .table_menu {
+        white-space: nowrap;
+        font-size: 3.5vw;
+    }
+
+    .menu_other p {
+        white-space: nowrap;
+    }
+
+    .menu_other {
+        padding-left: 1rem;
+        font-size: 3.5vw;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .shot_menu {
+        width: 21rem;
+    }
+
+    /*staff*/
+    .staff_item img {
+        height: 10rem;
+        margin-top: 3rem;
+    }
+
+
+}
