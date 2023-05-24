@@ -1,0 +1,155 @@
+/*メイン*/
+main {
+    margin-bottom: 1rem;
+    margin-top: -5rem;
+}
+
+.flex_home {
+    display: flex;
+}
+
+#header {
+    display: none;
+}
+
+#header.invert {
+    background-color: white;
+    height: 3rem;
+    position: fixed;
+    display: flex;
+    width: calc(100%/3);
+    margin-top: -10px;
+    z-index: 999;
+    transition: .5s;
+}
+
+
+/*top wrapper*/
+.top_wrapper {
+    justify-content: space-around;
+    padding-top: 5rem;
+}
+.top_wrapper img {
+    width: 100%;
+}
+
+.top_wrapper h1 {
+    font-family: Henny Penny;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+/*detail*/
+h2 {
+    text-align: center;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+}
+
+/*NEWS*/ 
+.news {
+    text-align: center;
+}
+
+.news_back {
+    height: 12em;
+    margin: 0 auto;
+    padding: 2em 0;
+    border-radius: 10px;
+    background-image: url("../images/news_backimg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.news a {
+    display: block;
+    color: black;
+    text-shadow: 1px 1px white;
+    font-size: 1.2rem;
+    text-decoration: underline 3px pink;
+    margin: 2rem 0;
+    line-height: 2em;
+}
+
+/*menu*/
+.menu_items {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu img {
+    height: 100px;
+}
+
+.table_menu {
+    width: 90%;
+    margin: 0.2rem auto; 
+    background-color: rgb(65, 65, 65);
+    border-radius: 10px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    padding: 2rem;
+}
+
+.sp {
+    padding-bottom: 3rem;
+}
+
+.plice {
+    padding-left: 1rem;
+    text-align: right;
+}
+
+.shot_menu {
+    display: flex; 
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    background-color: rgb(65, 65, 65);
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.coca p {
+    margin-top: -0.8rem;
+    margin-left: 1.5rem;
+}
+
+.kuliner p {
+    margin-top: -0.8rem;
+    margin-left: 1.2rem;
+}
+
+
+.shot_menu_images img {
+    height: 4rem;
+}
+
+.menu_other {
+    padding-left: 2rem; 
+}
+
+/*staff*/
+.staff_item {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    padding: 2rem 0;
+    background-color: rgb(65, 65, 65);
+    border-radius: 10px;
+}
+.staff_item img {
+    width: 10rem;
+    margin: 1rem;
+}
+
+.staff_item p{
+    font-size: 0.95rem;
+    margin-right: 1rem;
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+
+

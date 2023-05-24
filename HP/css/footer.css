@@ -1,0 +1,59 @@
+/*footer*/
+footer {
+    text-align: center;
+    margin-top: 0.5rem;
+    border-top: solid 1px white;
+}
+
+.footer_home {
+    font-size: 2rem;
+    font-family: myfont;
+    margin-top: 2rem;
+}
+
+.footer_adress p {
+    padding: 2rem;
+} 
+
+.footer_links {
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.instagram { 
+    padding: 1rem 1.1rem;
+    color: black;
+    font-size: 2rem;
+    margin-right: 2rem;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.line {
+    padding: 1rem;
+    font-size: 2rem; 
+    color: black;
+    margin-right: 2rem;
+    background-color: white;
+    border-radius: 50%;
+}
+
+iframe {
+    width: 4rem;
+    height: 4rem;
+    margin: 0;
+    margin-top: -0.5rem;
+    border-radius: 50%;
+}
+
+
+.copy {
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.copy p {
+    margin: 0;
+}
