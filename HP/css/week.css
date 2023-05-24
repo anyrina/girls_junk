@@ -1,0 +1,29 @@
+/*main*/
+main {
+    margin-top: 4.5rem;
+}
+
+main h1 {
+    text-align: center;
+    margin: 3rem 0;
+    font-weight: lighter;
+    font-size: 1.5em;
+}
+
+.table_week {
+    display: flex;
+    width: 100%;
+    font-size: 1.2rem;
+    justify-content: center;
+    padding: 2rem 0;
+    background-image: url("../images/week_backimg.png");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+}
+
+.table_week td {
+    line-height: 3em;
+}

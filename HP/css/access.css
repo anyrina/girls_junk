@@ -1,0 +1,14 @@
+main {
+    margin-top: 4.5rem;
+}
+
+main img {
+    width: 100%;
+}
+
+main p {
+    width: 70%;
+    margin: 5rem auto;
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
