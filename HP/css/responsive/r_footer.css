@@ -1,9 +1,0 @@
-@media all and (max-width: 660px) {
-    .footer_adress p {
-        padding: 0;
-    }
-
-    .footer_links {
-        height: 5rem;
-    }
-}
